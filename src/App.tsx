@@ -18,6 +18,7 @@ function App() {
           </Route>
           <Route path="/post/:postId" element={<Post />} />
         </Route>
+        {/*todo (5-1) Write 추가*/}
         <Route path="/write" element={<Write />} />
       </Routes>
     </Router>
